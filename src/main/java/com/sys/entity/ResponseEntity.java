@@ -7,7 +7,7 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class ResponseEntity {
 
-	private int id;
+	private int code;
 	private String msg;
 	private Object data;
 }
